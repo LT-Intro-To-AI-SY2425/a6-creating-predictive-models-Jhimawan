@@ -11,7 +11,7 @@ After completing `a6_part3.py` answer the following questions
 My model is more accurate because I am achieving a better R-squared value.
 
 3. What does the model predict a 10-year-old car with 89000 miles is worth? What about a car that is 20 years old with 150000 miles?
-
+The 10 year old car would be around 13000 dollars and a 20 year old car with a negative predicted price.
 
 4. You may notice that some of your predicted results are negative. This is occurring when the value of age and the mileage of the car are very high. Why do you think this is happening?
 Since it is linearly going negative. At a certain point, it won't stop at 0 like it should but will follow the graph.
