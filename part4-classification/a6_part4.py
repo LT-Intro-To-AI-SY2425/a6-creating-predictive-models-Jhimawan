@@ -9,8 +9,6 @@ data['Gender'].replace(['Male','Female'],[0,1],inplace=True)
 x = data[["Age", "EstimatedSalary", "Gender"]].values
 y = data["Purchased"].values
 
-x = x.reshape(-1, 3)
-
 # Step 1: Print the values for x and y
 print(x)
 print(y)
